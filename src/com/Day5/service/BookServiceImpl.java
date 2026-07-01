@@ -1,6 +1,9 @@
 package com.Day5.service;
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.TreeSet;
 
 import com.Day5.dao.BookDao;
 import com.Day5.pojo.Book;
@@ -43,6 +46,13 @@ public class BookServiceImpl implements BookService {
 	@Override
 	public List<Book> findByPrice(double min, double max) {
 		return dao.findByPrice(min, max);
+	}
+	@Override
+	public List<Book> listOrderByTitle() {
+		Comparator<Book> titleComp = (b1,b2) -> b1.getTitle().compareTo(b2.getTitle());
+		List<Book> lst = new ArrayList<>(dao.list());
+		lst.sort(titleComp);
+		return lst;
 	}
 
 }

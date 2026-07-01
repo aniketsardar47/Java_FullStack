@@ -6,6 +6,7 @@ import com.Day5.pojo.Book;
 import com.Day5.service.BookNotFoundException;
 import com.Day5.service.BookService;
 import com.Day5.service.BookServiceImpl;
+import java.util.List;
 
 public class TestBookService {
 	public static void main(String []args) {
@@ -17,6 +18,9 @@ public class TestBookService {
 		service.save(new Book(03,"Java Programming", "Hilbert",340));
 		service.save(new Book(04,"Computer Networks", "Larry Peterson",400));
 		service.save(new Book(05,"Operating Systems", "Hilberk Schelchutz",450));
+		
+		System.out.println("Printing in Sorted Order");
+		service.listOrderByTitle().forEach(System.out::println);
 		
 		System.out.println("All Books");
 		for(Book b: service.list()) {
