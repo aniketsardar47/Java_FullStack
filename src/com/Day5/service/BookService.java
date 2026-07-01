@@ -1,12 +1,13 @@
 package com.Day5.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.Day5.pojo.Book;
 
 public interface BookService {
 	boolean save(Book b);
-	Book find(int isbn) throws BookNotFoundException;
+	Optional<Book> find(int isbn) throws BookNotFoundException;
 	List<Book> list();
 	boolean delete(int isbn) throws BookNotFoundException;
 	List<Book> findByPrice(double min, double max);

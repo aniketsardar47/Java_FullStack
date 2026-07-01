@@ -1,4 +1,4 @@
-package temp.Comparators;
+package com.Day6.Comparators;
 
 public class Person implements Comparable<Person>{
 	private String name;

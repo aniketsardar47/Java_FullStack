@@ -1,4 +1,4 @@
-package temp.StreamsAPI.program;
+package com.Day6.StreamsAPI.program;
 
 public class Flight {
 	private int code;

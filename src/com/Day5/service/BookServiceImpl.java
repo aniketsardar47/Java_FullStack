@@ -3,6 +3,7 @@ package com.Day5.service;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.TreeSet;
 
 import com.Day5.dao.BookDao;
@@ -20,10 +21,10 @@ public class BookServiceImpl implements BookService {
 	public boolean save(Book b) {
 		return dao.save(b);
 	}
-
+	
 	@Override
-	public Book find(int isbn) throws BookNotFoundException {
-		Book b = dao.find(isbn);
+	public Optional<Book> find(int isbn) throws BookNotFoundException {
+		Optional<Book> b = dao.find(isbn);
 		if(b == null)
 			throw new BookNotFoundException("Book not found with the given isbn: "+isbn);
 		return b;

@@ -1,4 +1,4 @@
-package temp.StreamsAPI.program;
+package com.Day6.StreamsAPI.program;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

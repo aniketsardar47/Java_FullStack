@@ -1,4 +1,4 @@
-package temp.StreamsAPI;
+package com.Day6.StreamsAPI;
 
 import java.util.*;
 import java.util.stream.Collectors;

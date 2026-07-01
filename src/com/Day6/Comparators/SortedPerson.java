@@ -1,4 +1,4 @@
-package temp.Comparators;
+package com.Day6.Comparators;
 
 import java.util.Comparator;
 import java.util.TreeSet;

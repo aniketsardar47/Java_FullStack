@@ -18,7 +18,7 @@ public class BookDaoCollectionImpl implements BookDao {
 	private Vector<Book> books;
 	
 	public BookDaoCollectionImpl() {
-		Stream<String> lines = null
+		Stream<String> lines = null;
 		try {
 			lines = Files.lines(Paths.get("src/com/Day5/dao/Books.txt"));
 		}catch(Exception e) {
