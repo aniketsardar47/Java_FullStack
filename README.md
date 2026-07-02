@@ -17,6 +17,7 @@ Use the quick links below to jump directly to specific daily tracks or practical
 | [📂 Day 5 Resources](src/com.Day5.ResourceBundler) | [📂 Day 5 Service](src/com.Day5.service) | [📂 Day 5 Testing](src/com.Day5.test) |
 | [📂 Day 6 Core](src/com.Day6) | [📂 Day 6 Comparators](src/com.Day6.Comparators) | [📂 Day 6 File IO](src/com.Day6.Files) |
 | [📂 Day 6 Streams](src/com.Day6.StreamsAPI) | [📂 Day 6 Streams Pro](src/com.Day6.StreamsAPI.program) | [📂 Shopping App](src/com.shoppingApp) |
+| [📂 Day 7 Module](src/com.Day7) | [📂 Day 8 Module](src/com.Day8) |
 
 ### 🏆 Practical Assignments
 | | |
