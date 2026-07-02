@@ -12,7 +12,7 @@ Use the quick links below to jump directly to specific daily tracks or practical
 | | | |
 | :---: | :---: | :---: |
 | [📂 Day 1 Module](src/com.Day1) | [📂 Day 3 Core](src/com.Day3) | [📂 Day 3 Library](src/com.Day3.Library) |
-| [📂 Day 4 Bank](src/com.Day4.Bank) | [📂 Day 4 DataStructures](src/com.Day4.datastructures) | [📂 Day 4 Stock](src/com.Day4.stock) |
+| [📂 Day 4 Bank](src/com.Day4.Bank) | [📂 Day 4 DataStructures](src/com.Day4.datastructures) | [📂 Day 4 Stack](src/com.Day4.stock) |
 | [📂 Day 5 Collection](src/com.Day5.collection) | [📂 Day 5 DAO](src/com.Day5.dao) | [📂 Day 5 POJO](src/com.Day5.pojo) |
 | [📂 Day 5 Resources](src/com.Day5.ResourceBundler) | [📂 Day 5 Service](src/com.Day5.service) | [📂 Day 5 Testing](src/com.Day5.test) |
 | [📂 Day 6 Core](src/com.Day6) | [📂 Day 6 Comparators](src/com.Day6.Comparators) | [📂 Day 6 File IO](src/com.Day6.Files) |
