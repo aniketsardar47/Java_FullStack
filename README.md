@@ -11,19 +11,19 @@ Use the quick links below to jump directly to specific daily tracks or practical
 ### 📅 Daily Learning Track
 | | | |
 | :---: | :---: | :---: |
-| [📂 Day 1 Module](src/com.Day1) | [📂 Day 3 Core](src/com.Day3) | [📂 Day 3 Library](src/com.Day3.Library) |
-| [📂 Day 4 Bank](src/com.Day4.Bank) | [📂 Day 4 DataStructures](src/com.Day4.datastructures) | [📂 Day 4 Stack](src/com.Day4.stock) |
-| [📂 Day 5 Collection](src/com.Day5.collection) | [📂 Day 5 DAO](src/com.Day5.dao) | [📂 Day 5 POJO](src/com.Day5.pojo) |
-| [📂 Day 5 Resources](src/com.Day5.ResourceBundler) | [📂 Day 5 Service](src/com.Day5.service) | [📂 Day 5 Testing](src/com.Day5.test) |
-| [📂 Day 6 Core](src/com.Day6) | [📂 Day 6 Comparators](src/com.Day6.Comparators) | [📂 Day 6 File IO](src/com.Day6.Files) |
-| [📂 Day 6 Streams](src/com.Day6.StreamsAPI) | [📂 Day 6 Streams Pro](src/com.Day6.StreamsAPI.program) | [📂 Shopping App](src/com.shoppingApp) |
-| [📂 Day 7 Module](src/com.Day7) | [📂 Day 8 Module](src/com.Day8) |
+| [📂 Day 1 Module](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day1) | [📂 Day 3 Core](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day3) | [📂 Day 3 Library](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day3/Library) |
+| [📂 Day 4 Bank](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day4/Bank) | [📂 Day 4 DataStructures](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day4/datastructures) | [📂 Day 4 Stock](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day4/stock) |
+| [📂 Day 5 Collection](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day5/collection) | [📂 Day 5 DAO](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day5/dao) | [📂 Day 5 POJO](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day5/pojo) |
+| [📂 Day 5 Resources](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day5/ResourceBundler) | [📂 Day 5 Service](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day5/service) | [📂 Day 5 Testing](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day5/test) |
+| [📂 Day 6 Core](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day6) | [📂 Day 6 Comparators](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day6/Comparators) | [📂 Day 6 File IO](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day6/Files) |
+| [📂 Day 6 Streams](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day6/StreamsAPI) | [📂 Day 6 Streams Pro](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day6/StreamsAPI.program) | [📂 Shopping App](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/shoppingApp) |
+| [📂 Day 7 Module](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day7) | [📂 Day 8 Module](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/com/Day8) | [📂 My Package](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/mypackage) |
 
 ### 🏆 Practical Assignments
 | | |
 | :---: | :---: |
-| [🏏 IPL Dashboard Core](src/Assignment.IPL) | [🏢 IPL DAO Layer](src/Assignment.IPL.dao) |
-| [📦 IPL POJO Models](src/Assignment.IPL.pojo) | [⚙️ IPL Service Layer](src/Assignment.IPL.service) |
+| [🏏 IPL Dashboard Core](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/Assignment/IPL) | [🏢 IPL DAO Layer](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/Assignment/IPL/dao) |
+| [📦 IPL POJO Models](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/Assignment/IPL/pojo) | [⚙️ IPL Service Layer](https://github.com/aniketsardar47/Java_FullStack/tree/main/src/Assignment/IPL/service) |
 
 ---
 
@@ -32,20 +32,3 @@ Use the quick links below to jump directly to specific daily tracks or practical
 * **IDE:** Eclipse IDE
 * **Database Driver:** MySQL Connector/J (`mysql-connector-j-9.5.0.jar`)
 * **Architecture:** Layered Architecture (POJO, DAO, Service, Presentation Client)
-
----
-
-## 📂 Structural Overview
-
-### 1. `src/com.DayX`
-Contains daily lecture examples, experimentative snippets, and foundational drills including:
-* Core structural programs and standard arrays.
-* Object-Oriented paradigms, custom Exception Handling, and File input/output streams.
-* Extensive implementations of the Java Collections Framework and the functional Streams API.
-
-### 2. `src/Assignment.IPL`
-An industry-grade, menu-driven command-line dashboard simulation managing an Indian Premier League (IPL) roster database setup:
-* **`pojo`**: Plain Old Java Objects mapped directly to schema configurations (`Player`, `Team`).
-* **`dao`**: Data Access Object structural contracts utilizing database drivers (`DBUtil`/`JDBCFactory`) to decouple storage logic from operational rules.
-* **`service`**: Robust validation layers evaluating relational limits before hitting database transactions.
-* **`TestIPL`**: Clean terminal console prompt taking streaming interface controls for automated adjustments.
