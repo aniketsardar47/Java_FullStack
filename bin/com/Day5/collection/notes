@@ -8,8 +8,8 @@ Collection(Interface)
 	- Set
 		-SortedSet
 	- Queue
-	-Dequeue
-	-Map
+	- Dequeue
+	- Map
 		-SortedMap
 
 Collection

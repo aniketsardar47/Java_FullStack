@@ -1,0 +1,12 @@
+Maven: 
+	- Use for automation of testing
+	- Create jar file of project
+	- It is project management tool
+	- pom.xml (Project Object Model)
+	- supports TDD (Test Driven Development)
+	
+Testing :
+	- White box testing
+		- Unit Testing
+			- JUnit
+			 

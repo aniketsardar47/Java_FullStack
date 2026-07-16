@@ -1,0 +1,22 @@
+2026-07-03 14:27:48 INFO  BankService - Transfer started.
+2026-07-03 14:27:48 DEBUG BankService - Sender: Aniket
+2026-07-03 14:27:48 DEBUG BankService - Receiver: Rahul
+2026-07-03 14:27:48 DEBUG BankService - Amount: 5000.0
+2026-07-03 14:27:48 INFO  BankService - Money transferred successfully.
+2026-07-03 14:27:48 INFO  BankService - Transfer started.
+2026-07-03 14:27:48 DEBUG BankService - Sender: Aniket
+2026-07-03 14:27:48 DEBUG BankService - Receiver: Rahul
+2026-07-03 14:27:48 DEBUG BankService - Amount: 150000.0
+2026-07-03 14:27:48 WARN  BankService - Large transaction detected.
+2026-07-03 14:27:48 INFO  BankService - Money transferred successfully.
+2026-07-03 14:27:48 INFO  BankService - Transfer started.
+2026-07-03 14:27:48 DEBUG BankService - Sender: Aniket
+2026-07-03 14:27:48 DEBUG BankService - Receiver: Rahul
+2026-07-03 14:27:48 DEBUG BankService - Amount: -1000.0
+2026-07-03 14:27:48 ERROR BankService - Invalid transfer amount.
+2026-07-03 14:39:30 DEBUG TestLifeCycle - Executes Before all test cases
+2026-07-03 14:39:30 DEBUG TestLifeCycle - Executes before each test cases
+2026-07-03 14:39:30 DEBUG TestLifeCycle - Executes after each test cases
+2026-07-03 14:39:30 DEBUG TestLifeCycle - Executes before each test cases
+2026-07-03 14:39:30 DEBUG TestLifeCycle - Executes after each test cases
+2026-07-03 14:39:30 DEBUG TestLifeCycle - Executes After all test cases
